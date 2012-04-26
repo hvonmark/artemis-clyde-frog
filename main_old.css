@@ -1,0 +1,342 @@
+/**help.css                            */
+/***********************************************/
+/* HTML tag styles                             */
+/***********************************************/ 
+
+body {
+	background-color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	font-size: 9pt;
+	color: #333333;
+	left:auto;
+	top: auto;
+	bottom: auto;
+	margin: 10px 0 0 10px;
+	right: auto;
+	width: 95%;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-size: 9pt;
+	text-align: left;
+	line-height: 16px;
+	width: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 0px;
+	margin-bottom: 8px;
+}
+
+a:link, a:visited {
+	color: #3B6EBF;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3B6EBF;
+	text-decoration: underline;
+	text-align: right;
+}
+
+.code {
+	font-family: Courier, monospace;
+	font-size: 9pt
+}
+
+/*********** begin head styles ***********/
+
+
+
+h1 {
+	background-color: #EEF0EB;
+	border-color: #B7C4D3;
+	border-style: dotted;
+	border-width: 1px 0;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0px;
+	padding: 10px;
+}
+
+h2 {
+	-moz-border-radius-bottomleft:0;
+	-moz-border-radius-bottomright:0;
+	-moz-border-radius-topleft:8px;
+	-moz-border-radius-topright:8px;
+	color:#E95D20;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	font-style:oblique;
+	margin: 25px 0px 0px 8px;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#4C4C4C;
+	font-weight:bold;
+	margin:18px 2px 10px 2px;
+	background-color:#EEE;
+	padding:8px 4px 4px 6px;
+	border-bottom: solid 1px #889ca4;
+	background-image:url("images/milky_pencil_small.png");
+	background-repeat:no-repeat;
+	background-position:99% bottom;
+}
+
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 0px 0px 10px;
+	font-size: 9pt;
+	font-weight: bold;
+	vertical-align: top;
+	text-align: left;
+	color: #333333;
+	margin: 15px 0px 0px 0px
+}
+
+h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 0px 0px 10px;
+	font-size: 9pt;
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+	color: #333333;
+	margin: 15px 0px 0px 0px;
+	font-style: italic;
+}
+
+h6 {
+	background-color: #EEF0EB;
+	border-color: #B7C4D3;
+	border-style: dotted;
+	border-width: 1px 0;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	margin: 15px 0 2px -10px;
+	padding: 1em 0 1em 10px;
+}
+
+/*********** end head styles ***********/
+
+li {
+    font-family: Arial,sans-serif;
+    font-size: 9pt;
+    font-weight: normal;
+    line-height: 1.4em;
+    list-style-position: outside;
+    margin: 0 0 6px 16px;
+    padding: 0 2% 0 0;
+    width: auto;
+}
+
+ul {	
+	list-style-type:disc;
+	list-style-position:inside;
+	margin:8px 10px 10px 10px;
+	line-height: normal;
+}
+
+
+ol {
+	margin:15px 0px 10px 10px;
+	padding:0px;
+	list-style-type:decimal;
+	line-height: normal;
+}
+
+ol ol {
+	margin:10px 10px 10px 20px;
+    list-style-type: lower-alpha;
+	line-height: normal;
+}
+
+ul ul {
+	list-style-type:circle;
+	line-height: normal;
+}
+
+ ul ul ul {
+	list-style-type:square;
+	line-height: normal;
+}
+
+.image_left {
+	padding:0% 3% 2% 0%;
+	margin:2px;
+}
+
+.image_inline {
+	margin:0px;
+	align:absmiddle;
+}
+
+.image_between {
+	margin:15px 0px 15px 2px;
+	align:absmiddle;
+}
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#main {
+	float: clear;
+	margin: 0;
+	width: 588px;
+	padding: 0;
+}
+
+#masthead {
+	margin: 0px;
+	padding: 0px;
+}
+
+#content {
+	padding: 0 4% 0 0;
+	line-height: 16px;
+}
+
+
+/*********** begin wide tables ***********/
+table.wide {
+	background: #FFFFFF;
+	border-collapse: collapse;
+	text-align: left;
+	width: 98%;
+	margin-top: 2%;
+	margin-right: 1%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+
+table.wide th, table.wide td {
+	border: 1px silver solid;
+	padding: 0.2em;
+}
+
+table.wide td {
+	width:auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	height: auto;
+	line-height: 16px;
+	padding:2px 2px 4px 6px;
+	vertical-align:top;
+}
+
+table.wide th {
+	background: #E7E7E7;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #333333;
+	padding:6px 2px 4px 4px;
+}
+
+/*********** end wide tables ***********/
+
+
+/*********** table invisible styles ***********/
+table.invisible {
+	background: #FFFFFF;
+	border-collapse: collapse;
+	text-align: left;
+	width: 98%;
+	margin: 1px;
+}
+
+table.invisible th, table.invisible td {
+	padding: 0.2em;
+}
+
+table.invisible td {
+	width:auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	height: auto;
+	line-height: 12px;
+	padding:2px;
+}
+
+table.invisible th {
+	text-align: left;
+	vertical-align: middle;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #333333;
+}
+
+
+/*********** begin note styles ***********/
+
+.info, .tip, .warning, {
+	font-style:italic;
+	margin:0px 20px 0px 10px;
+	padding:4px 10px 6px 30px;
+	background-repeat:no-repeat;
+	background-position:left center;
+	font-style: italic;
+}
+
+.info {
+	background-image: url("images/icon_note.png");
+}
+
+.tip {
+	background-image:url("images/icon_tip.png");
+}
+
+.warning {
+	background-image:url("images/icon_warn.png");
+}
+
+.button_blue {
+	-moz-border-radius: 2px 2px 2px 2px;
+	-moz-box-shadow: 0 1px 2px #000000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	background: #4185f4; /* Old browsers */
+	background: -moz-linear-gradient(top, #4185f4 0%, #194fdb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4185f4), color-stop(100%, #194fdb)); /* Chrome,Safari4+ */
+	margin: 1px 5px 1px 5px;
+	padding: 1px 4px 1px 4px;
+}
+
+.button_grey {
+	-moz-border-radius: 2px 2px 2px 2px;
+	-moz-box-shadow: 0 1px 2px #000000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	background: #999999; /* Old browsers */
+	background: -moz-linear-gradient(top, #999999 0%, #5b5b5b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #999999), color-stop(100%, #5b5b5b)); /* Chrome,Safari4+ */
+	margin: 1px 5px 1px 5px;
+	padding: 1px 4px 1px 4px;
+}
+
+.icon_note {
+	-moz-border-radius: 10px 10px 20px 20px;
+	-moz-box-shadow: 0 1px 2px #000000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	background: # 3CF; /* Old browsers */
+	background: -moz-linear-gradient(top, #4185f4 0%, #3CF 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4185f4), color-stop(100%, #3CF)); /* Chrome,Safari4+ */
+	margin: 0px 4px 0px 0px;
+	padding: 1px 6px 1px 6px;
+}
