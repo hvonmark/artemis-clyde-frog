@@ -4,9 +4,7 @@ get '/' do
   "Hello, world. It's me, Heidi."
 end
 
-get '/index.html' do
-  "Hello World"
-end
+set :public_filter, File.dirname(__FILE__) + "/public"
 
 get '/mu-32993297-ebfb7231-dd9327aa-f8506f05' do
   '42'
