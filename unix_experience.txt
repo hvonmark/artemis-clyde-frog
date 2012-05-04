@@ -1,0 +1,46 @@
+
+
+Technical Experience
+
+
+Ubuntu: Using the command line, I've installed Ubuntu 10.10 from a setup script, followed by using apt-get to install packages as needed for new software.  
+
+MacOS: Using the command line, I've installed ruby, couchdb, and several dozen ruby gems. I've also installed Xcode developer tools and MacPorts. 
+
+Other: I've worked with Virtual Box to load/manage images and document basic Vbox operations. I've worked with the Eclipse plugin architecture to produce integrate help system for web-based app. Most of my current work is using Git for development and Heroku for app hosting (all command line operations).  
+
+
+Developer Documentation
+I'm the only writer for the entire Mu Dynamics (recently acquired by Spirent) product line, which means I do everything from customer-facing help docs to internal wikis for dev teams to API documentation for our more sophisticated users. 
+
+However, the Blitz project (a self-service, cloud-based load and performance testing tool) is entirely developer-focused with all content written specifically for app and website developers. I've done most of my recent developer docs for Blitz, including website content (written in yaml), to 3rd-party add-on wikis (written in markdown), to general support and knowledgebase articles that help developers install and use Blitz.
+
+Some samples of my developer-facing work: 
+
+1. sample_kb		
+KB articles for developer-focused load testing tool
+See at http://support.blitz.io/kb/integration/integration-using-new-relic-with-blitz.
+
+2. sample_addon	
+Heroku add-on documentation 
+See at https://devcenter.heroku.com/articles/blitz. 
+
+3. sample_gem_internal.html and sample_gem_external.html		
+Ruby Gem documentation for pcapr_local
+
+4. sample_wiki.md		
+Git wikis for internal processes
+
+5. sample_api.pdf		
+API documentation for Mu Studio Performance
+Includes 5 randomly-selected pages.
+
+
+I've also done a large number of technical notes designed for SE teams and advanced users. Some samples: 
+
+Attack Signature Creation documents for advanced network security professionals
+
+
+
+
+
